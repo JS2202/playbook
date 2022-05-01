@@ -1,19 +1,30 @@
 {
-  "name": "s3_01_my_launchx_app",
+  "name": "01_my_launchx_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Es un proyecto para LaunchX",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "jest --verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "JS2202",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.5.1"
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JS2202/playbook.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/JS2202/playbook/issues"
+  },
+  "homepage": "https://github.com/JS2202/playbook/tree/main#readme"
 }
