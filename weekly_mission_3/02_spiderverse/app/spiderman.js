@@ -8,7 +8,7 @@ class Spiderman {
     }
 
     getInfo = () => {
-        return `Hey, I'm ${this.actor} from Marvel studio`;
+        return `Hey, I'm ${this.actor} from ${this.studio} studio`;
     }
 }
 
